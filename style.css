@@ -20,8 +20,15 @@ svg:active {
   transform: scale(0.9, 0.9);
 }
 
+.wrapper {
+  width: auto;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .navbar {
-  width: 100%;
+  min-width: 1448px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
